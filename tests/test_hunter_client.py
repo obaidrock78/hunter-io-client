@@ -18,7 +18,7 @@ from hunter_client.client import HunterClient, HunterAPIError
 def _set_hunter_key_env(monkeypatch: pytest.MonkeyPatch) -> None:
     monkeypatch.setenv(
         "HUNTER_API_KEY",
-        "1a8ed577f4c5ae40300f4580e58c70323ba961d4",
+        "",
     )
 
 
