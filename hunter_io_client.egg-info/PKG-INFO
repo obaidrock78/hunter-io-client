@@ -1,0 +1,23 @@
+Metadata-Version: 2.4
+Name: hunter-io-client
+Version: 1.0.0
+Summary: Python client for Hunter.io API v2
+Author-email: Hunter Client Developer <dev@example.com>
+License: MIT
+Keywords: hunter,email,api,client,verification
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Communications :: Email
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: mypy>=1.0; extra == "dev"
+Requires-Dist: wemake-python-styleguide>=0.19.2; extra == "dev"
+Requires-Dist: pytest>=7.0; extra == "dev"
+Requires-Dist: pytest-cov>=4.0; extra == "dev"

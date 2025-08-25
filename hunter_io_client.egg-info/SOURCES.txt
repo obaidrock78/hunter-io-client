@@ -1,0 +1,10 @@
+pyproject.toml
+setup.cfg
+hunter_client/__init__.py
+hunter_client/client.py
+hunter_io_client.egg-info/PKG-INFO
+hunter_io_client.egg-info/SOURCES.txt
+hunter_io_client.egg-info/dependency_links.txt
+hunter_io_client.egg-info/requires.txt
+hunter_io_client.egg-info/top_level.txt
+tests/test_hunter_client.py
